@@ -1,15 +1,6 @@
+height = int(input("Enter maximum height: "))
+for i in range(1, height + 1):
+    print("* " * i)
 
-
-
-
-row = 6
-for i in range(0, rows):
-    print("*", end=' ')
-print(" ")
-
-print(" ")
-
-for i in range(rows, + 1, 0, -1):
-    for j in range(0, i - 1):
-        print("*", end=' ')
-        print("\r ")
+for i in range(height - 1, 0, -1):
+    print("* " * i)
